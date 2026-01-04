@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "wich_mossy-llamas",
+	"version": "${version}",
+	"name": "Mossy Llamas",
+	"description": "Allows llamas to wear moss and pale moss carpets",
+	"authors": [ "dovewich" ],
+	"contact": {
+		"homepage": "https://www.wich.fun/",
+		"sources": "https://github.com/OfficePigeon/Mossy-Llamas-Mod",
+		"issues": "https://github.com/OfficePigeon/Mossy-Llamas-Mod/issues"
+	},
+	"license": "",
+	"icon": "assets/wich/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [ "fun.wich.MossyLlamasMod" ]
+	},
+	"mixins": [
+		"wich.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": ">=1.21.9",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
