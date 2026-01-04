@@ -3,7 +3,7 @@
   "package": "fun.wich.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-	"ItemsMixin"
+	"MossyLlamasItemsMixin"
   ],
   "injectors": {
 	"defaultRequire": 1

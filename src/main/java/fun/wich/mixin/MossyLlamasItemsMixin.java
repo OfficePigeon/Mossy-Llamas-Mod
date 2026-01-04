@@ -22,7 +22,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 import java.util.function.UnaryOperator;
 
 @Mixin(Items.class)
-public abstract class ItemsMixin {
+public abstract class MossyLlamasItemsMixin {
 	@Shadow public static Item register(Block block, UnaryOperator<Item.Settings> settingsOperator) { return null; }
 
 	@Inject(method= "register(Lnet/minecraft/block/Block;)Lnet/minecraft/item/Item;", at=@At("HEAD"), cancellable=true)
