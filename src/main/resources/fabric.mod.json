@@ -17,7 +17,7 @@
 		"main": [ "fun.wich.MossyLlamasMod" ]
 	},
 	"mixins": [
-		"wich.mixins.json"
+		"wich.mossyllamas.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.17.3",
